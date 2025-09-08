@@ -7,15 +7,13 @@ import './Formulario.css';
 const Formulario = (props) => {
   const times = [
     'Programação',
-    'Front-end',
-    'Backend',
-    'Devops',
+    'Front-End',
     'Data Science',
+    'Devops',
     'UX e Design',
     'Mobile',
     'Inovação e Gestão',
-    'IA',
-  ];
+]
 
   const [nome, setNome] = useState('');
   const [cargo, setCargo] = useState('');
